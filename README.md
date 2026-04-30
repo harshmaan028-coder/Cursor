@@ -44,6 +44,10 @@ The goal of this project was to:
 
 ---
 
+## 💻 Live Preview
+
+- https://harshmaan028-coder.github.io/Cursor/
+
 ## 📬 Connect
 
 Feel free to reach out or give feedback!
