@@ -1,0 +1,867 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px; 
+}
+
+body{
+    background-color: rgb(20, 18, 11);
+    color: white;
+}
+
+header{
+    background-color: rgb(20, 18, 11);
+    position: fixed;
+    width: 100%;
+    height: 52px;
+    padding: 0px 20px;
+}
+
+nav{
+    font-family: CursorGothic, "CursorGothic Fallback", system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    max-width: 1300px;
+    height: 52px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 88.4px;
+    font-weight: 500;
+}
+
+.first{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    width: 95.75px;
+    height: 23.79px;
+}
+
+.list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.l1{
+    margin-left: 202px;
+    cursor: pointer;
+}
+
+.l1 li{
+    box-sizing: content-box;
+    color: rgb(237, 236, 236);
+    min-width: 50.575px;
+    min-height: 21px;
+    font-size: 14.5px;
+    text-decoration-style: solid;
+    line-height: 21px;
+    text-decoration-color: rgb(237, 236, 236);
+    padding: 5.6px 15px;
+    border: 0.8px solid #00000000;
+}
+
+#spc2{
+    margin-right: 24px;
+}
+
+.l2{
+    column-gap: 7.5px;
+}
+
+.l2 li {
+    box-sizing: content-box;
+    color: rgb(237, 236, 236);
+    font-size: 14px;
+    min-width: 43.575px;
+    min-height: 21px;
+    border: 0.8px solid rgba(0, 0, 0, 0);
+}
+
+#spc{
+    padding: 4px;
+}
+
+.btn1, .btn2{
+    box-sizing: content-box;
+    cursor: pointer;
+    font-size: 14.5px;
+    font-weight: 400;
+    line-height: 1;
+} 
+
+.btn1{
+    background-color: rgb(20, 18, 11);
+    color: rgb(237, 236, 236);
+    border: 0.8px solid oklab(0.943853 0.00107113 0.000336707 / 0.2);
+    min-width: 87.325px;
+    height: 14px;
+    padding: 5.6px 10.5px;
+    border-radius: 2.68435e+07px;
+}
+
+.btn2{
+    width: 100%;
+    height: 100%;
+    font-weight: 400;
+    line-height: 14px;
+    max-width: 64.713px;
+    max-height: 14px;
+    padding: 5.6px 10.5px;
+    border-radius: 2.68435e+07px;
+    border: 0.8px solid rgb(237, 236, 236);
+}
+
+main{
+    padding: 164px 20px 67.2px 20px;
+}
+
+section{
+    margin: 0px 90.4px;
+}
+
+section h1{
+    max-width: 658.312px;
+    max-height: 65px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 22.4px;
+    font-size: 26px;
+    font-weight: 400;
+    font-family: CursorGothic, "CursorGothic Fallback", system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.btn3{
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    max-width: 228.775px;
+    max-height: 42.555px;
+    padding: 12.480px 21.6px;
+    border-radius: 2.68435e+07px;
+    border: 0.8px solid rgb(237, 236, 236);
+}
+
+.btn4{
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    max-width: 183.3px;
+    max-height: 42.555px;
+    background-color: rgb(38, 36, 30);
+    color: rgb(237, 236, 236);
+    padding: 12.480px 21.6px;
+    border-radius: 2.68435e+07px;
+    border: 0.8px solid oklab(0.943853 0.00107113 0.000336707 / 0.025);
+}
+
+.secbtn{
+    display: flex;
+    gap: 10px;
+}
+
+.tandb{
+    margin-bottom: 56px;
+}
+
+.secimg{
+    width: 100%;
+    height: 100%;
+    max-width: 1300px;
+    max-height: 720px;
+}
+
+.s2{
+    padding: 0px 20px 33.6px;
+    margin: 0px;
+}
+
+.s2 > div{
+    margin: 0px 90.4px;
+}
+
+.s2 img{
+    height: 40px;
+    width: auto;
+}
+
+.s2 div h2{
+    font-size: 14px;
+    font-family: CursorGothic, "CursorGothic Fallback", system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.14px;
+    line-height: 21px;
+    margin-bottom: 22.4px;
+    text-align: center;
+}
+
+.logos{
+    display: grid;
+    grid-template-rows: 100px;
+    grid-template-columns: repeat(8,1fr);
+    gap: 10px;
+}
+
+.logos div{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(27, 25, 19);
+    border-radius: 5px;
+}
+
+.stripe img{
+    height: 38px;
+}
+
+.openai img{
+    width: auto;
+    height: 26px;
+}
+
+.linear img{
+    width: auto;
+    height: 25px;
+}
+
+.datadog img{
+    height: 27px;
+}
+
+.nvidia img{
+    width: 110px;
+    height: 24px;
+}
+
+.figma img{
+    height: 24px;
+}
+
+.ramp img{
+    height: 28px;
+}
+
+.fsec{
+    color: white;
+    padding: 67.2px 20px;
+    margin: 0px;
+}
+
+
+.fsec > div{
+    margin: 0px 90.4px;
+    max-width: 1300px;
+    min-height: 715px;
+    width: 100%;
+    height: 100%;
+    padding: 17.5px;
+    background-color: rgb(27, 25, 19);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.stext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2.5px;
+    padding-right: 30px;
+    letter-spacing: -0.11px;
+    font-family: CursorGothic, "CursorGothic Fallback", system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.stext h3{
+    font-size: 22px;
+    line-height: 28.6px;
+    color: rgb(237, 236, 236);
+    font-weight: 500;
+}
+
+#p1{
+    color: oklab(0.943853 0.00107113 0.000336707 / 0.6);
+    font-size: 22px;
+    line-height: 28.6px;
+    font-weight: 480;
+}
+
+#p2{
+    color: rgb(245, 78, 0);
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 14.933px;
+    font-weight: 500;
+}
+
+.fimg{
+    cursor: default;
+}
+
+.fimg img{
+    max-width: 840px;
+    max-height: 680px;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+}
+
+.fsec2{
+    margin: 0px;
+    padding: 22px 20px;
+}
+
+.fsec2 > div{
+    margin: 0px 90.4px;
+    padding: 17.5px;
+    background-color: rgb(27, 25, 19);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 4px;
+}
+
+.fimg2 img{
+    max-width: 840px;
+    max-height: 680px;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 4px;
+}
+
+.stext2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-bottom: 6px;
+    letter-spacing: -0.11px;
+    font-family: CursorGothic, "CursorGothic Fallback", system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.stext2 h3{
+    font-size: 22px;
+    line-height: 28.6px;
+    color: rgb(237, 236, 236);
+    font-weight: 500;
+}
+
+#p3{
+    color: oklab(0.943853 0.00107113 0.000336707 / 0.6);
+    font-size: 22px;
+    line-height: 28.6px;
+    font-weight: 480;
+}
+
+#p4{
+    color: rgb(245, 78, 0);
+    font-size: 17px;
+    line-height: 24px;
+    margin-top: 18px;
+    font-weight: 500;;
+}
+
+.fsec3btns{
+    display: flex;
+    margin-top: 24px;
+    margin-bottom: 6px;
+    gap: 4px;
+}
+
+.fsec3btns button{
+    min-width: 61.675px;
+    min-height: 12px;
+    padding: 4px 10px;
+    background-color: rgb(38, 36, 30);
+    font-family: CursorGothic, "CursorGothic Fallback", system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border: none;
+    border-radius: 3.40282e38px;
+    color: rgb(237, 236, 236);
+    font-size: 12px;
+    font-weight: 480;
+    line-height: 12px;
+}
+
+.fsec .holder{
+    width: 382.5px;
+    height: 43px;
+    background-color: rgb(32, 30, 24);
+    font-family: CursorGothic, "CursorGothic Fallback", system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border-radius: 8px;
+    padding: 9px 10px;
+    font-size: 16px;
+    font-weight: 480;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#btn5{
+    padding: 5px 6px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#btn5 span{
+    display: inline-block;
+    margin-left: 0.8px;
+    margin-top: 3.4px;
+}
+
+.fsec3 > div{
+    cursor: default;
+}
+
+.fsec3 h3, .fsec3 p{
+    cursor: text;
+}
+
+.fsec3btns button,
+.fsec3 .holder{
+    cursor: pointer;
+}
+
+.fsec4{
+    padding-bottom: 67.2px;
+}
+
+.fsec4 > div{
+    cursor: pointer;
+}
+
+.fimg4{
+    cursor: default;
+}
+
+.fsec4 > div{
+    gap: 0px
+    ;
+}
+
+.stext4{
+    padding-right: 40px;
+}
+
+.grid1{
+    padding: 67.2px 20px;
+    margin: 0px;
+}
+
+.grid1 > div {
+    margin: 0px 90.4px;
+}
+
+.grid-d1{
+    padding-bottom: 56px;
+    letter-spacing: -0.72px;
+    text-align: center;
+    color: rgb(237, 236, 236);
+    font-family: CursorGothic, "CursorGothic Fallback", system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;;
+}
+
+.grid-d1 h2{
+    font-size: 36px;
+    font-weight: 480;
+}
+
+.grid-d2 {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,240.2px);
+    gap: 10px;
+}
+
+.grid-d2 > div{
+    background-color: rgb(27, 25, 19);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    padding: 17.5px;
+    padding-top: 15.9px;
+    font-size: 16.8px;
+    font-family: CursorGothic, "CursorGothic Fallback", system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;;
+    font-weight: 450;
+    color: rgb(237, 236, 236);
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+}
+
+.person{
+    max-height: 40px;
+    display: flex;
+    gap: 14px;
+}
+
+.pfp >img{
+    max-width: 40px;
+    min-height: 40px;
+    width: 100%;
+}
+
+.d1, .d2, .d3, .d4, .d5, .d6{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.name{
+    font-size: 14px;
+    font-family: CursorGothic, "CursorGothic Fallback", system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;;
+    letter-spacing: 0.14px;
+    line-height: 21px;
+    color: rgb(237, 236, 236);
+    font-weight: 400;
+}
+
+.dest{
+    font-size: 14px;
+    font-family: CursorGothic, "CursorGothic Fallback", system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;;
+    color: oklab(0.943853 0.00107113 0.000336707 / 0.6);
+    font-weight: 400;
+    letter-spacing: 0.14px;
+    line-height: 21px;
+}
+
+.usecase{
+    margin: 0px;
+    padding: 67.2px 20px;
+}
+
+.usecase > div{
+    margin: 0px 90.4px;
+}
+
+.casetext{
+    margin-bottom: 22.4px;
+}
+
+.casetext > h2{
+    color: rgb(237, 236, 236);
+    font-size: 22px;
+    font-weight: 400;
+    font-family: CursorGothic, "CursorGothic Fallback", system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    letter-spacing: -0.11px;
+    line-height: 28.6px;
+}
+
+.casegrid{
+    display: grid;
+    grid-template-rows: 553.49px;
+    grid-template-columns: repeat(3, 426.66px);
+    justify-content: space-between;
+}
+
+.casegrid > div{
+    background-color: rgb(27, 25, 19);
+    padding: 17.5px;
+    padding-top: 15.9px;
+    border-radius: 4px;
+    display: block;
+}
+
+.casegrid a{
+    display: block;
+    color: rgb(245, 78, 0);
+    font-family: CursorGothic, "CursorGothic Fallback", system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.08px;
+    line-height: 24px;
+    font-weight: 400;
+    text-decoration: none;
+    padding-top: 14.9333px;
+}
+
+.casegrid h3{
+    color: rgb(237, 236, 236);
+    font-family: CursorGothic, "CursorGothic Fallback", system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.08px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.casegrid p{
+    color: oklab(0.943853 0.00107113 0.000336707 / 0.6);
+    font-family: CursorGothic, "CursorGothic Fallback", system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.08px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.casegrid img{
+    max-width: 391px;
+    max-height: 391px;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    margin-top: 17.5px;
+}
+
+.updates{
+    margin: 0px;
+    padding: 67.2px 20px;
+}
+
+.updates > div {
+    margin: 0px 90.4px;
+}
+
+.updates h2{
+    margin-bottom: 22.4px;
+    color: rgb(237, 236, 236);
+    font-family: CursorGothic, "CursorGothic Fallback", system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: -0.11px;
+    line-height: 28.6px;
+}
+
+.updtflex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.updtflex > div{
+    width: 317.5px;
+    height: 107.9px;
+    background-color: rgb(27, 25, 19); 
+    border-radius: 4px;
+}
+
+.updates a{
+    display: block;
+    margin-top: 16.8px;
+    color: rgb(245, 78, 0);
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 0.08px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: CursorGothic, "CursorGothic Fallback", system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.join{
+    margin: 0px;
+    padding: 67.2px 20px;
+}
+
+.join > div,
+.join > img{
+    margin: 0px 90.4px;
+    border-radius: 4px;
+    background-color: rgb(27, 25, 19);
+    padding: 17.5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.joinimage{
+    max-width: 840px;
+    max-height: 525px;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+}
+
+.jointext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.jointext h3{
+    font-family: CursorGothic, "CursorGothic Fallback", system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: rgb(237, 236, 236);
+    letter-spacing: -0.11px;
+    line-height: 28.6px;
+}
+
+.jointext a{
+    margin-top: 14.933px;
+    color: rgb(245, 78, 0);
+    font-family: CursorGothic, "CursorGothic Fallback", system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.final{
+    margin: 0px;
+    padding: 67.2px 20px;
+    padding-bottom: 130.4px;
+}
+
+.final > div{
+    margin: 0px 90.4px;
+}
+
+.final h2{
+    text-align: center;
+    color: rgb(237, 236, 236);
+    font-family: CursorGothic, "CursorGothic Fallback", system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 72px;
+    font-weight: normal;
+    line-height: 79.2px;
+    letter-spacing: -2.16px;
+    margin-bottom: 22.4px;
+}
+
+.final h2 span{
+    display: inline-block;
+    transform: translateY(-8px);
+}
+
+.finalbtns{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.fcontent{
+    margin: 0px 244.875px;
+}
+
+.finalbtns button{
+    background-color: rgb(237, 236, 236);
+    border: 0px;
+    color: rgb(20, 18, 11);
+    font-size: 16px;
+    font-weight: normal;
+    border-radius: 3.40282e38px;
+    padding: 12.480px 21.6px 12.8px 21.6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fbtn2{
+    color: rgb(237, 236, 236);
+    background-color: rgb(38, 36, 30); 
+}
+
+footer{
+    padding: 67.2px 20px 28px 20px;
+    background-color: rgb(27, 25, 19);
+}
+
+footer > div{
+    margin: 0px 90.4px;
+}
+
+.fd1{
+    margin-bottom: 100.8px;
+}
+
+.footerg{
+    display: grid;
+    grid-template-columns: repeat(5, 252px);
+    grid-template-rows: 268.26px;
+    justify-content: space-between;
+}
+
+footer h3{
+    color: oklab(0.943853 0.00107113 0.000336707 / 0.6);
+    font-family: CursorGothic, "CursorGothic Fallback", system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.14px;
+    line-height: 21px;
+    padding-bottom: 4.667px;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+.fd1 a{
+    display: inline-block;
+    padding: 4.667px 0px;
+    text-decoration: none;
+    color: rgb(237, 236, 236);
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.14px;
+    line-height: 21px;
+    font-family: CursorGothic, "CursorGothic Fallback", system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.fd1 li{
+    width: auto;
+    height: 30.33px;
+}
+
+.fd2{
+    color: oklab(0.943853 0.00107113 0.000336707 / 0.6);
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.14px;
+    line-height: 21px;
+}
+
+.finald2{
+    color: oklab(0.943853 0.00107113 0.000336707 / 0.6);
+    display: flex;
+    justify-content: space-between;
+}
+
+.finald2 select{
+    padding: 5.6px 10.5px 5.8px 10.5px ;
+    border-radius: 3.40282e38px;
+    border: 0px;
+    font-family: CursorGothic, "CursorGothic Fallback", system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: rgb(38, 36, 30);
+    color: rgb(237, 236, 236);
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.14px;
+    line-height: 21px;
+}
+
+.date{
+    color: oklab(0.943853 0.00107113 0.000336707 / 0.5);
+    font-family: CursorGothic, "CursorGothic Fallback", system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.08px;
+    font-weight: 400;
+}
+
+.updtcontent{
+    color: rgb(237, 236, 236);
+    font-family: CursorGothic, "CursorGothic Fallback", system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.08px;
+    font-weight: 400;
+}
+
+.updtflex .d1,
+.updtflex .d2,
+.updtflex .d3,
+.updtflex .d4{
+    padding: 15.6px 17.5px;
+    padding-bottom: 15.8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
