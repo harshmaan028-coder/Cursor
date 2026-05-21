@@ -11,7 +11,7 @@ This project focuses on recreating the layout, typography, and overall visual de
 - Clean and modern UI design
 - Proper use of CSS Grid and Flexbox
 - Typography and spacing matching real-world design systems
-- Responsive structure (if you added it)
+- Responsive structure
 
 ---
 
