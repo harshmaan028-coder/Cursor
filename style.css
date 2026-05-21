@@ -1103,4 +1103,12 @@ footer ul{
     gap: 10px;
     }
 
+    .btn3{
+        font-size: 0;
+    }
+
+    .btn3::after{
+        font-size: 16px;
+        content: "Download for Windows ↓";
+    }
 }
